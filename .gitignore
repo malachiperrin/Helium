@@ -1,0 +1,11 @@
+# Ignore specific file
+
+
+# Ignore files with a specific extension
+.csv
+
+# Ignore entire directory
+
+
+# Exclude files in a specific directory
+csv/*.csv
