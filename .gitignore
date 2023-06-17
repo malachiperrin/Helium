@@ -1,5 +1,5 @@
 # Ignore specific file
-
+.env
 
 # Ignore files with a specific extension
 .csv
