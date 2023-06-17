@@ -11,6 +11,9 @@ Helium eliminates the tedious task of manually updating local project databases 
 - Automates the reading and updating of the database table based on the CSV content.
 - Provides a user-friendly command-line interface for seamless interaction.
 
+## Requirements
+- Rich https://github.com/Textualize/rich
+
 ## Getting Started
 
 To get started with the app, make sure you have the required prerequisites installed, such as Python, the pip package manager, and your preferred database server. Once the prerequisites are set up, follow the installation instructions provided in the README.md file of the repository.
@@ -23,12 +26,5 @@ Using the command-line app is straightforward. Place your CSV file in Helium dir
 
 Contributions to Helium are welcome! If you encounter any bugs, have feature requests, or would like to make improvements, feel free to fork the repository, create a new branch, and submit a pull request with your changes. Make sure to follow the contribution guidelines outlined in the repository.
 
-## License
-
-This project is licensed under the MIT License. You can find more information in the LICENSE file.
-
-## Contact
-
-If you have any questions, feedback, or need support, you can reach out via email at your-email@example.com or connect with us on Twitter [@your-twitter-handle](https://twitter.com/your-twitter-handle). We'd be glad to assist you!
 
 
