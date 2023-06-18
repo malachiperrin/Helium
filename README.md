@@ -13,6 +13,10 @@ Helium eliminates the tedious task of manually updating local project databases 
 
 ## Requirements
 - Rich https://github.com/Textualize/rich
+- Python Dotenv https://github.com/theskumar/python-dotenv
+- Psycopg https://www.psycopg.org/docs/
+- SuperSQLite https://github.com/plasticityai/supersqlite?ref=arctype.com
+- MySQL Connector/Python https://github.com/mysql/mysql-connector-python
 
 ## Getting Started
 

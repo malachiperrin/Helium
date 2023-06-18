@@ -2,8 +2,18 @@ import sys
 import os
 import shutil
 import time
+
+
 from rich.console import Console
 from rich.table import Table
+import dotenv
+
+
+from database.database_setup import setup
+
+
+dotenv.load_dotenv()
+
 
 def main() : 
     print("Welcome to Helium!")
@@ -50,6 +60,9 @@ def main() :
     console = Console()
     console.print(table)
 
-    confirm_update = input("Are you ready to proceed with the update?\nYes = 1\nNo = 2\n>> ")
+
+    setup((str.upper(os.getenv("DATABASE_DRIVER"))))
+
+
     
 main()
