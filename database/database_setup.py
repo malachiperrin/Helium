@@ -3,6 +3,9 @@ from database.db_postgresql import postgresqlconnect
 from database.db_sqlite import sqliteconnect
 
 def setup(driver) :
+
+    driver = str.upper(driver)
+
     confirm_update = input("Are you ready to proceed with the update?\nYes = 1\nNo = 2\n>> ")
 
     if(confirm_update == "1") :
