@@ -31,7 +31,7 @@ def set_path():
             file_path = os.getcwd() + "/csv/{}".format(file_name)
         
 
-        print(file_path)    
+        rich_print("[bold green]{}[/bold green]".format(file_path))    
         confirm_path = input("Is the path correct?\nYes = 1\nNo = 2\n>> ")
 
     # Files get copied to the CSV directory for organization
