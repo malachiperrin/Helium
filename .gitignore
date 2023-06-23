@@ -3,6 +3,7 @@
 
 # Ignore files with a specific extension
 .csv
+.pyc
 
 # Ignore entire directory
 
