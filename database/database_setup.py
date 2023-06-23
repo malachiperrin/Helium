@@ -4,16 +4,14 @@ from database.db_sqlite import sqliteconnect
 
 def setup(driver) :
 
-    driver = str.upper(driver)
-
     confirm_update = input("Are you ready to proceed with the update?\nYes = 1\nNo = 2\n>> ")
 
     if(confirm_update == "1") :
-        if (driver == "MYSQL") :
+        if (driver == "MySQL") :
             mysqlconnect()
-        elif (driver == "SQLITE") :
+        elif (driver == "SQLite") :
             sqliteconnect()
-        elif(driver == "POSTGRESQL") :
+        elif(driver == "PostgreSQL") :
             postgresqlconnect()
         else :
             print("Please check your database driver in the .env file")
