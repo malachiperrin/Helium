@@ -6,7 +6,8 @@
 .pyc
 
 # Ignore entire directory
-
+database/__pycache__
 
 # Exclude files in a specific directory
 csv/*.csv
+database/__pycache__/*.pyc
