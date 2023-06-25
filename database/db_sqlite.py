@@ -1,4 +1,10 @@
+import sqlite3
 
+def sqliteconnect(host) :
 
-def sqliteconnect() :
-    print("SQLITE values")
+    try: 
+        connection = sqlite3.connect(host)
+        cursor = connection.cursor()
+    except sqlite3.DatabaseError as err:
+        print(err)
+

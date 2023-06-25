@@ -18,9 +18,3 @@ def setup(driver) :
     else:
         print("when you re run the app you'll be able to choose to upload from a file in the csv directory")
 
-
-
-def updatedatabasetable(data) :
-    stmt = "UPDATE {} VALUES({})"
-
-
